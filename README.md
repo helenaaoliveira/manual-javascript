@@ -9,8 +9,21 @@ Nas páginas web, o JavaScript funciona junto com o HTML e o CSS. O HTML organiz
 
 **Para que JavaScript serve em páginas web?**
 
+
+
 **Como JavaScript se relaciona com HTML e CSS?**
 
 **Onde JavaScript pode ser usado no HTML?**
 
 **Diferença entre script dentro do HTML e script em arquivo separado?**
+
+
+
+
+
+
+
+**REFERÊNCIAS**
+
+https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Core/Scripting/What_is_JavaScript 
+

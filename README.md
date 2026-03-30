@@ -36,21 +36,40 @@ Externo: Linkar arquivos JavaScript externos usando a tag <script src=”caminho
 
 **Diferença entre script dentro do HTML e script em arquivo separado**
 
+O script interno é escrito diretamente no HTML, sendo útil apenas para testes rápidos ou funções minúsculas. Já o script externo fica em um arquivo .js separado, o que organiza o projeto, permite reutilizar o código em várias páginas e melhora a velocidade de carregamento através do cache do navegador.
 
 **Como declarar variáveis?**
 
 
 **Diferença entre var, let e const**
 
+Antes do ECMAScript 6, as variáveis em JavaScript eram declaradas principalmente com var.
+
+O var pode ter escopo global (quando é declarado fora de uma função) ou escopo de função (quando é declarado dentro de uma função, podendo ser usado apenas nela).
+
+Outra característica é que variáveis declaradas com var podem ser redeclaradas e atualizadas sem gerar erro, o que pode causar problemas no código. Além disso, o var sofre hoisting, ou seja, sua declaração é movida para o início do escopo e inicialmente recebe o valor undefined.
+
+Um dos principais problemas do var é que ele pode ser redefinido dentro de blocos, como em um if, afetando o valor da variável fora do bloco e podendo gerar erros inesperados no programa. Por causa dessas limitações, surgiram let e const, que oferecem mais controle sobre o escopo das variáveis.
 
 **O que é escopo de variável?**
 
+Escopo de variável é o local do código onde a variável pode ser usada. Dependendo de onde ela é criada, ela pode ter escopo global, de função ou de bloco.
 
 **Diferença entre == e ===**
 
+== compara apenas o valor.
+
+=== compara valor e tipo.
+
+Por isso, na maioria dos casos, === é considerado mais seguro, pois evita comparações incorretas causadas pela conversão automática de tipos.
 
 **Diferença entre != e !==**
 
+!= verifica se os valores são diferentes, podendo converter o tipo.
+
+!== verifica se os valores ou os tipos são diferentes, sem conversão.
+
+Por isso, assim como ===, o operador !== é considerado mais seguro, pois evita erros causados pela conversão automática de tipos.
 
 **Como declarar funções?**
 
@@ -71,4 +90,5 @@ Externo: Linkar arquivos JavaScript externos usando a tag <script src=”caminho
 
 https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Core/Scripting/What_is_JavaScript 
 https://www.locaweb.com.br/ajuda/wiki/linkar-javascript-no-html/
-
+https://www.bbc.com/news/world/middle_east
+https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/script

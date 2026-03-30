@@ -24,43 +24,108 @@ O HTML cuida da estrutura da página, o CSS define a aparência e o JavaScript a
 
 **Onde JavaScript pode ser usado no HTML?**
 
-Existem várias maneiras de incorporar JavaScript em um documento HTML:
+O JavaScript pode ser usado dentro do HTML usando a tag:
 
-Inline: Inserção de código JavaScript diretamente dentro de tags HTML usando o atributo onclick, onload, etc.
+<script>
+  console.log("Olá mundo");
+</script>
 
-Interno: Uso da tag <script> dentro do <head> ou <body> do documento HTML.
-
-Externo: Linkar arquivos JavaScript externos usando a tag <script src=”caminho/para/arquivo.js”></script>.
+Essa tag permite escrever código JavaScript dentro da página.
 
 **--**
 
 **Diferença entre script dentro do HTML e script em arquivo separado**
 
-O script interno é escrito diretamente no HTML, sendo útil apenas para testes rápidos ou funções minúsculas. Já o script externo fica em um arquivo .js separado, o que organiza o projeto, permite reutilizar o código em várias páginas e melhora a velocidade de carregamento através do cache do navegador.
+*Script dentro do HTML*
+
+<script>
+alert("Olá");
+</script>
+
+O código fica dentro do próprio arquivo HTML.
+
+*Script em arquivo separado*
+
+<script src="script.js"></script>
+
+JavaScript:
+
+alert("Olá");
+
+A vantagem do arquivo separado é que organiza melhor o projeto e facilita a manutenção do código.
 
 **--**
 
 **Como declarar variáveis?**
 
-Declarar uma variável em JavaScript significa criar um espaço para guardar um valor que pode ser usado no programa. Isso pode ser feito usando var, let ou const.
+Variáveis são usadas para armazenar informações dentro do programa.
+
+No JavaScript podemos declarar variáveis usando:
+
+var
+let
+const
+
+Exemplo:
+
+let nome = "Ana";
 
 **--**
 
 **Diferença entre var, let e const**
 
-Antes do ECMAScript 6, as variáveis em JavaScript eram declaradas principalmente com var.
+*var*
 
-O var pode ter escopo global (quando é declarado fora de uma função) ou escopo de função (quando é declarado dentro de uma função, podendo ser usado apenas nela).
+-forma mais antiga
+-pode ser redeclarada
+-tem escopo de função
 
-Outra característica é que variáveis declaradas com var podem ser redeclaradas e atualizadas sem gerar erro, o que pode causar problemas no código. Além disso, o var sofre hoisting, ou seja, sua declaração é movida para o início do escopo e inicialmente recebe o valor undefined.
+var idade = 20;
 
-Um dos principais problemas do var é que ele pode ser redefinido dentro de blocos, como em um if, afetando o valor da variável fora do bloco e podendo gerar erros inesperados no programa. Por causa dessas limitações, surgiram let e const, que oferecem mais controle sobre o escopo das variáveis.
+*let*
+
+-usada em códigos mais modernos
+-pode ter seu valor alterado
+-tem escopo de bloco
+
+
+let idade = 20;
+
+*const*
+
+-usada para valores que não mudam
+-não pode ser alterada depois
+
+const pi = 3.14;
 
 **--**
 
 **O que é escopo de variável?**
 
-Escopo de variável é o local do código onde a variável pode ser usada. Dependendo de onde ela é criada, ela pode ter escopo global, de função ou de bloco.
+Escopo é o local do código onde a variável pode ser usada.
+
+Existem três principais tipos:
+
+*Escopo global*
+
+A variável pode ser usada em todo o programa.
+
+var nome = "Ana";
+Escopo de função
+
+A variável só existe dentro da função.
+
+function exemplo() {
+  var idade = 20;
+}
+
+*Escopo de bloco*
+
+A variável só existe dentro do bloco {}.
+
+if (true) {
+  let numero = 10;
+}
 
 **--**
 
@@ -86,13 +151,35 @@ Por isso, assim como ===, o operador !== é considerado mais seguro, pois evita 
 
 **Como declarar funções?**
 
-Declarar uma função significa criar um bloco de código que executa uma tarefa específica. Em JavaScript isso é feito usando a palavra function, seguida do nome da função, parênteses e o código que será executado.
+Funções são blocos de código que executam uma tarefa específica.
+
+Exemplo:
+
+function saudacao() {
+  console.log("Olá");
+}
+
+Para executar a função:
+
+saudacao();
 
 **--**
 
 **Como fazer operações aritméticas e lógicas básicas?**
 
-As operações aritméticas são usadas para fazer cálculos matemáticos, como soma, subtração, multiplicação e divisão. Já as operações lógicas são usadas para comparar valores e verificar condições dentro do programa.
+Operações aritméticas
+let a = 10;
+let b = 5;
+
+let soma = a + b;
+let multiplicacao = a * b;
+
+Principais operadores:
+
++ soma
+- subtração
+* multiplicação
+/ divisão
 
 **--**
 

@@ -9,9 +9,13 @@ Nas páginas web, o JavaScript funciona junto com o HTML e o CSS. O HTML organiz
 
 **Para que JavaScript serve em páginas web?**
 
+Quando você abre uma página em um navegador, o código HTML, CSS e JavaScript é executado dentro da guia do navegador, que funciona como um ambiente que transforma esse código na página que vemos.
 
+O JavaScript é muito usado para modificar o conteúdo e o estilo da página, usando a API do Document Object Model. O código normalmente é executado na ordem em que aparece, por isso é importante que o JavaScript rode depois do HTML e do CSS, para evitar erros.
 
 **Como JavaScript se relaciona com HTML e CSS?**
+
+O HTML cuida da estrutura da página, o CSS define a aparência e o JavaScript adiciona o comportamento e a interatividade.
 
 **Onde JavaScript pode ser usado no HTML?**
 Interação entre HTML e JavaScript

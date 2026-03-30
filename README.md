@@ -27,7 +27,9 @@ O HTML cuida da estrutura da página, o CSS define a aparência e o JavaScript a
 O JavaScript pode ser usado dentro do HTML usando a tag:
 
 <script>
+  
   console.log("Olá mundo");
+  
 </script>
 
 Essa tag permite escrever código JavaScript dentro da página.
@@ -39,7 +41,9 @@ Essa tag permite escrever código JavaScript dentro da página.
 *Script dentro do HTML*
 
 <script>
+  
 alert("Olá");
+  
 </script>
 
 O código fica dentro do próprio arquivo HTML.
@@ -63,7 +67,9 @@ Variáveis são usadas para armazenar informações dentro do programa.
 No JavaScript podemos declarar variáveis usando:
 
 var
+
 let
+
 const
 
 Exemplo:
@@ -77,7 +83,9 @@ let nome = "Ana";
 *var*
 
 -forma mais antiga
+
 -pode ser redeclarada
+
 -tem escopo de função
 
 var idade = 20;
@@ -85,7 +93,9 @@ var idade = 20;
 *let*
 
 -usada em códigos mais modernos
+
 -pode ter seu valor alterado
+
 -tem escopo de bloco
 
 
@@ -94,6 +104,7 @@ let idade = 20;
 *const*
 
 -usada para valores que não mudam
+
 -não pode ser alterada depois
 
 const pi = 3.14;
@@ -111,12 +122,15 @@ Existem três principais tipos:
 A variável pode ser usada em todo o programa.
 
 var nome = "Ana";
+
 Escopo de função
 
 A variável só existe dentro da função.
 
 function exemplo() {
+
   var idade = 20;
+  
 }
 
 *Escopo de bloco*
@@ -124,7 +138,9 @@ function exemplo() {
 A variável só existe dentro do bloco {}.
 
 if (true) {
+
   let numero = 10;
+  
 }
 
 **--**
@@ -156,7 +172,9 @@ Funções são blocos de código que executam uma tarefa específica.
 Exemplo:
 
 function saudacao() {
+
   console.log("Olá");
+  
 }
 
 Para executar a função:
@@ -168,17 +186,23 @@ saudacao();
 **Como fazer operações aritméticas e lógicas básicas?**
 
 Operações aritméticas
+
 let a = 10;
+
 let b = 5;
 
 let soma = a + b;
+
 let multiplicacao = a * b;
 
 Principais operadores:
 
 + soma
+  
 - subtração
+  
 * multiplicação
+  
 / divisão
 
 **--**

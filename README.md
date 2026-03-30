@@ -1,4 +1,4 @@
-# manual-javascript
+# Manual-JavaScript
 
 **O que é JavaScript?**
 

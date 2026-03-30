@@ -42,7 +42,7 @@ O script interno é escrito diretamente no HTML, sendo útil apenas para testes 
 
 **Como declarar variáveis?**
 
-
+Declarar uma variável em JavaScript significa criar um espaço para guardar um valor que pode ser usado no programa. Isso pode ser feito usando var, let ou const.
 
 **--**
 
@@ -120,7 +120,11 @@ O JavaScript pode interagir com os elementos da página usando o DOM. Isso permi
 **REFERÊNCIAS**
 
 https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Core/Scripting/What_is_JavaScript 
+
 https://www.locaweb.com.br/ajuda/wiki/linkar-javascript-no-html/
+
 https://www.bbc.com/news/world/middle_east
+
 https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/script
+
 https://www.freecodecamp.org/portuguese/news/var-let-e-const-qual-e-a-diferenca/

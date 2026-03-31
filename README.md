@@ -52,6 +52,7 @@ O código fica dentro do próprio arquivo HTML.
 
 <script src="script.js"></script>
 
+
 *JavaScript:*
 
 alert("Olá");

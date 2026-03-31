@@ -1,4 +1,4 @@
-# Manual-JavaScript
+# Manual-JavaScript - Helena e Rafaela
 
 **O que é JavaScript?**
 

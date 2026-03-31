@@ -198,13 +198,13 @@ let multiplicacao = a * b;
 
 Principais operadores:
 
-+ soma
++soma
   
-- subtração
+-subtração
   
-* multiplicação
+*multiplicação
   
-/ divisão
+/divisão
 
 **--**
 

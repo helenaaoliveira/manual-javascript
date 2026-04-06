@@ -252,7 +252,7 @@ A funcionalidade final de uma função deve receber um retorno, ou seja, ela dev
 
 # 8. Manipulação de página com JavaScript
 
-## *document*
+<span style="color:red">*document*</span>
 
 ### Para que serve: 
 ### O document representa toda a página HTML. Ele permite que o JavaScript acesse e modifique elementos da página.

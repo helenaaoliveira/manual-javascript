@@ -328,6 +328,7 @@ A funcionalidade final de uma função deve receber um retorno, ou seja, ela dev
 #### Remove um elemento da página.
 
 
+----
 
 
 ## REFERÊNCIAS:

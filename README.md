@@ -254,8 +254,7 @@ A funcionalidade final de uma função deve receber um retorno, ou seja, ela dev
 
 *document*
 
-### Para que serve:
-### O document representa toda a página HTML. Ele permite que o JavaScript acesse e modifique elementos da página.
+### Para que serve: O document representa toda a página HTML. Ele permite que o JavaScript acesse e modifique elementos da página.
 ---------------------------------------------------------------
 *getElementById()*
 

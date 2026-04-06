@@ -252,7 +252,7 @@ A funcionalidade final de uma função deve receber um retorno, ou seja, ela dev
 
 # 8. Manipulação de página com JavaScript
 
-<span style="color:red">*document*</span>
+## *document*
 
 ### Para que serve: 
 ### O document representa toda a página HTML. Ele permite que o JavaScript acesse e modifique elementos da página.
@@ -262,67 +262,67 @@ A funcionalidade final de uma função deve receber um retorno, ou seja, ela dev
 ### Para que serve:
 ### Seleciona um elemento da página usando o id.
 ---------------------------------------------------------------
-*querySelector()*
+## *querySelector()*
 
 ### Para que serve:
 ### Seleciona o primeiro elemento que corresponde a um seletor CSS.
 ---------------------------------------------------------------
-*.value*
+## *.value*
 
 ### Para que serve:
 ### Usado para pegar ou alterar o valor de um input.
 ---------------------------------------------------------------
-*.checked*
+## *.checked*
 
 ### Para que serve:
 ### Verifica se um checkbox ou radio está marcado.
 ---------------------------------------------------------------
-*.textContent*
+## *.textContent*
 
 ### Para que serve:
 ### Altera ou pega o texto de um elemento.
 ---------------------------------------------------------------
-*.style*
+## *.style*
 
 ### Para que serve:
 ### Permite alterar o estilo CSS diretamente pelo JavaScript.
 ---------------------------------------------------------------
-*classList*
+## *classList*
 
 ### Para que serve:
 ### Adiciona ou remove classes CSS de um elemento.
 ---------------------------------------------------------------
-*addEventListener()*
+## *addEventListener()*
 
 ### Para que serve:
 ### Adiciona um evento a um elemento (ex: clique).
 ---------------------------------------------------------------
-*querySelectorAll()*
+## *querySelectorAll()*
 
 ### Para que serve:
 ### Seleciona todos os elementos que correspondem a um seletor.
 ---------------------------------------------------------------
-*checkValidity()*
+## *checkValidity()*
 
 ###Para que serve:
 ### Verifica se um formulário está válido de acordo com as regras do HTML.
 ---------------------------------------------------------------
-*DOMContentLoaded*
+## *DOMContentLoaded*
 
 ### Para que serve:
 ### Executa o JavaScript quando o HTML terminar de carregar.
 ---------------------------------------------------------------
-*createElement()*
+## *createElement()*
 
 ### Para que serve:
 ### Cria um novo elemento HTML pelo JavaScript.
 ---------------------------------------------------------------
-*appendChild()*
+## *appendChild()*
 
 ### Para que serve:
 ### Adiciona um elemento dentro de outro.
 ---------------------------------------------------------------
-*remove()*
+## *remove()*
 
 ### Para que serve:
 ### Remove um elemento da página.

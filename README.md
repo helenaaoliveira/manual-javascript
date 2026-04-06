@@ -304,13 +304,13 @@ A funcionalidade final de uma função deve receber um retorno, ou seja, ela dev
 ---------------------------------------------------------------
 ## *checkValidity()*
 
-###Para que serve:
+### Para que serve:
 ### Verifica se um formulário está válido de acordo com as regras do HTML.
 ---------------------------------------------------------------
 ## *DOMContentLoaded*
 
-### Para que serve:
-### Executa o JavaScript quando o HTML terminar de carregar.
+#### Para que serve:
+##3 Executa o JavaScript quando o HTML terminar de carregar.
 ---------------------------------------------------------------
 ## *createElement()*
 
